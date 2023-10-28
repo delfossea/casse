@@ -13,6 +13,15 @@ permissions:
   contents: read
 
 jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps: 
+    - uses: actions/checkout@v3
+    - name: Run
+      run: python casse.py
+      
   build:
 
     runs-on: ubuntu-latest
