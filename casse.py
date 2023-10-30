@@ -4,7 +4,7 @@ import random
 
 pygame.init()
 
-WIDTH,HEIGHT=600,500
+WIDTH,HEIGHT=800,600
 BLACK=(0,0,0)
 WHITE=(255,255,255)
 GREEN=(0,255,0)
