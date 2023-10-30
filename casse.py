@@ -1,5 +1,5 @@
 # $Header: /root/src/python/casse.py,v 1.4 2023/10/15 07:47:36 delfosse Exp $
-import pygame
+import pygame;
 import random
 
 pygame.init()
