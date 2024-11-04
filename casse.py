@@ -32,6 +32,7 @@ def populateBlocs(blocWidth, blocHeight, horizontalGap, verticalGap):
 
 def gameOver():
 	gameOver = True
+	print("Fin.")
 	while gameOver:
 		for event in pygame.event.get():
 			if event.type == pygame.QUIT:
